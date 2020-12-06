@@ -1,0 +1,30 @@
+{
+  "name": "tc",
+  "version": "0.1.0",
+  "description": "Tests for Challenges (WEB for begginners).",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --no-watchman"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/day0ff/TC.git"
+  },
+  "keywords": [
+    "test",
+    "jest",
+    "challenge",
+    "web",
+    "begginner",
+    "course"
+  ],
+  "author": "Denis Vershadov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/day0ff/TC/issues"
+  },
+  "homepage": "https://github.com/day0ff/TC#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
