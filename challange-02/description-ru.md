@@ -2,8 +2,7 @@
 1. Напишите функцию _**cube**_ которая принимает число x и возвращает его куб.
 ```javascript
 function cube(x){ 
-	...; 
-	return ...;
+	// write code here
 }
 ```
 * Пример: 
@@ -12,18 +11,17 @@ function cube(x){
 2. Напишите функцию _**dayOfWeek**_ которая принимает целоче число x от 1 до 7 и возвращает день недели.
 ```javascript
 function dayOfWeek(x){ 
-	...; 
-	return ...;
+	// write code here
 }
 ```
 * Пример: 
     * x = 1; result 'Monday';
-    * x = 4; result 'Thursday'.
+    * x = 4; result 'Thursday';
+	* x = 8; result 'No Such Say'.
 3. Напишите функцию _**factorial**_ которая принимает целоче число x, а возвращает его факториал.
 ```javascript
 function factorial(x){ 
-	...; 
-	return ...;
+	// write code here
 }
 ```
 * Пример: 
@@ -32,8 +30,7 @@ function factorial(x){
 4. :star: Напишите функцию _**swissKnife**_ которая принимает число x от 1 до 7 первым аргументом, а вторым аргументом другую функцию из первых трёх задач, вызывает её с парамтером x и возвращает рзультат выполнения этой функции.
 ```javascript
 function swissKnife(x, callback){ // где callback это cube, dayOfWeek или factorial
-	...; 
-	return ...;
+	// write code here
 }
 ```
 * Пример: 
@@ -42,8 +39,7 @@ function swissKnife(x, callback){ // где callback это cube, dayOfWeek ил
 5. :star: Напишите функцию которая принимает произвольно количество аргументов x1, x2, x3 ... xn, а возращает среднеарифмитическое этих всех чисел.
 ```javascript
 function arithmeticMean(x1, x2, ... xn){
-	...; 
-	return ...;
+	// write code here
 }
 ```
 * Пример: 
@@ -51,8 +47,7 @@ function arithmeticMean(x1, x2, ... xn){
 6. :star: :star: Напишите функцию _**sum**_ которая принимает целоче число x, а возвращает сумму всех его чисел [используя рекурсию](https://learn.javascript.ru/recursion).
 ```javascript
 function sum(x){ 
-	...; 
-	return ...;
+	// write code here
 }
 ```
 * Пример: 
