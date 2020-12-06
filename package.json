@@ -1,10 +1,16 @@
 {
   "name": "tc",
+  "jest": {
+    "verbose": true,
+    "testEnvironment": "jest-environment-node",
+    "transform": {}
+  },
   "version": "0.1.0",
   "description": "Tests for Challenges (WEB for begginners).",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest --no-watchman"
+    "start": "node index.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --no-watchman"
   },
   "repository": {
     "type": "git",
