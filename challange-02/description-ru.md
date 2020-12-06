@@ -48,9 +48,9 @@ function arithmeticMean(x1, x2, ... xn){
 ```
 * Пример: 
     * x1 =3, x2=3, x3=12, x4=77, x5=1, x6=42, x7=9; result 21.
-6. :star: :star: Напишите функцию _**summ**_ которая принимает целоче число x, а возвращает сумму всех его чисел [используя рекурсию](https://learn.javascript.ru/recursion).
+6. :star: :star: Напишите функцию _**sum**_ которая принимает целоче число x, а возвращает сумму всех его чисел [используя рекурсию](https://learn.javascript.ru/recursion).
 ```javascript
-function summ(x){ 
+function sum(x){ 
 	...; 
 	return ...;
 }
