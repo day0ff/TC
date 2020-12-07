@@ -37,4 +37,8 @@ describe('Factorial function: ', () => {
     test('should retrun undefined (factorial -1!)', () => {
         expect(factorial(-1)).toBeUndefined();
     });
+
+    test('should retrun undefined (factorial 2.2!)', () => {
+        expect(factorial(2.2)).toBeUndefined();
+    });
 });

@@ -45,4 +45,9 @@ describe('DayOfWeek function: ', () => {
     test('should retrun undefined (day string "a")', () => {
         expect(dayOfWeek('a')).toBeUndefined();
     });
+
+    test('should retrun undefined (day decimal number 2.2)', () => {
+        expect(dayOfWeek(2.2)).toBeUndefined();
+    });
+
 })

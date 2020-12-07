@@ -28,4 +28,8 @@ describe('Cube function: ', () => {
     test('should return -125 (cube of -5)', () => {
         expect(cube(-5)).toBe(-125);
     });
+
+    test('should retrun 10.648 (cube of decimal 2.2)', () => {
+        expect(cube(2.2)).toBeCloseTo(10.648);
+    });
 })
