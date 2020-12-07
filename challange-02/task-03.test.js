@@ -2,7 +2,7 @@ import factorial from './task-03.js';
 
 describe('Factorial function: ', () => {
 
-    test('should retrun 0 (factorial 1!)', () => {
+    test('should retrun 0 (factorial 0!)', () => {
         expect(factorial(0)).toBe(1);
     });
 
