@@ -43,7 +43,7 @@ function swissKnife(x, callback){ // где callback это cube, dayOfWeek ил
     * x = 5, callback = undefined; result **undefined**.
 5. :star: Напишите функцию которая принимает произвольно количество аргументов x1, x2, x3 ... xn, а возращает среднеарифмитическое этих всех чисел или **undefined** для всех других вариантов.
 ```javascript
-function arithmeticMean(x1, x2, ... xn){
+function arithmeticMean(){
 	// write code here
 }
 ```
