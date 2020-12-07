@@ -1,3 +1,3 @@
-export default function arithmeticMean(x1, x2, ... xn){
+export default function arithmeticMean(){
 	// write code here
 }
