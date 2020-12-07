@@ -30,15 +30,17 @@ function factorial(x){
     * x = 3; result 6;
     * x = 4; result 24;
     * x = 'a'; result **undefined**.
-4. :star: Напишите функцию _**swissKnife**_ которая принимает число x от 1 до 7 первым аргументом, а вторым аргументом другую функцию из первых трёх задач, вызывает её с парамтером x и возвращает рзультат выполнения этой функции.
+4. :star: Напишите функцию _**swissKnife**_ которая принимает число x от 1 до 7 первым аргументом, а вторым аргументом другую функцию из первых трёх задач, вызывает её с парамтером x и возвращает рзультат выполнения этой функции или **undefined** для всех других вариантов.
 ```javascript
 function swissKnife(x, callback){ // где callback это cube, dayOfWeek или factorial
 	// write code here
 }
 ```
-* Пример: 
-    * x = 5, dayOfWeek; result 'Friday';
-    * x = 5, factorial; result 120.
+* Пример:
+    * x = 5, callback = cube; result 125;
+    * x = 5, callback = dayOfWeek; result 'Friday';
+    * x = 5, callback = factorial; result 120.
+    * x = 5, callback = undefined; result **undefined**.
 5. :star: Напишите функцию которая принимает произвольно количество аргументов x1, x2, x3 ... xn, а возращает среднеарифмитическое этих всех чисел.
 ```javascript
 function arithmeticMean(x1, x2, ... xn){
