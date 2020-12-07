@@ -48,15 +48,17 @@ function arithmeticMean(){
 }
 ```
 * Пример: 
-    * x1 =3, x2=3, x3=12, x4=77, x5=1, x6=42, x7=9; result 21;
-    * x1 ='a', x2=2.2, x3=3; result **undefined**;
+    * x1 = 3, x2 = 3, x3 = 12, x4 = 77, x5 = 1, x6 = 42, x7 = 9; result 21;
+    * x1 = 'a', x2 = 2.2, x3 = 3; result **undefined**;
     * result **undefined**;
-6. :star: :star: Напишите функцию _**sum**_ которая принимает целоче число x, а возвращает сумму всех его чисел [используя рекурсию](https://learn.javascript.ru/recursion).
+6. :star: :star: Напишите функцию _**digitalRoot**_ которая принимает целоче число x, а возвращает его [цифровой корень](https://www.e-olymp.com/ru/problems/3937) [используя рекурсию](https://learn.javascript.ru/recursion) или **undefined** для всех других вариантов.
 ```javascript
-function sum(x){ 
+function digitalRoot(x){ 
 	// write code here
 }
 ```
 * Пример: 
-    * x = 3; result 6;
-    * x = 5; result 15.
+    * x = 1989; result 9;
+    * x = 2020; result 4;
+    * x = 9999991; result 1;
+    * x = 'XXI'; result **undefined**.

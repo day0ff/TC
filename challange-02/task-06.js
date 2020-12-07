@@ -1,3 +1,3 @@
-export default function sum(){
+export default function digitalRoot(x){
 	// write code here
 }
