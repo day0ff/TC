@@ -9,8 +9,8 @@ describe('Cube function: ', () => {
         expect(cube(7)).toBe(343);
     });
 
-    test('should return NaN (cube of char "a")', () => {
-        expect(cube('a')).toBeNaN();
+    test('should return undefined (cube of char "a")', () => {
+        expect(cube('a')).toBeUndefined();
     });
 
     test('should return 0 (cube of empty string "")', () => {

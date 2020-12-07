@@ -1,5 +1,5 @@
 # Функции
-1. Напишите функцию _**cube**_ которая принимает число x и возвращает его куб.
+1. Напишите функцию _**cube**_ которая принимает число x и возвращает его куб или **undefined** для всех других вариантов.
 ```javascript
 function cube(x){ 
 	// write code here
@@ -7,8 +7,10 @@ function cube(x){
 ```
 * Пример: 
     * x = 3; result 27;
-    * x = 2; result 8.
-2. Напишите функцию _**dayOfWeek**_ которая принимает целоче число x от 1 до 7 и возвращает день недели.
+    * x = 2; result 8;
+    * x = ''; result 0;
+    * x = 'a'; result **undefined**.
+2. Напишите функцию _**dayOfWeek**_ которая принимает целоче число x от 1 до 7 и возвращает день недели или **undefined** для всех других вариантов.
 ```javascript
 function dayOfWeek(x){ 
 	// write code here
@@ -17,8 +19,8 @@ function dayOfWeek(x){
 * Пример: 
     * x = 1; result 'Monday';
     * x = 4; result 'Thursday';
-	* x = 8; result 'No Such Say'.
-3. Напишите функцию _**factorial**_ которая принимает целоче число x, а возвращает его факториал.
+	* x = 8; result **undefined**.
+3. Напишите функцию _**factorial**_ которая принимает целоче число x, а возвращает его факториал или **undefined** для всех других вариантов.
 ```javascript
 function factorial(x){ 
 	// write code here
@@ -26,7 +28,8 @@ function factorial(x){
 ```
 * Пример: 
     * x = 3; result 6;
-    * x = 4; result 24.
+    * x = 4; result 24;
+    * x = 'a'; result **undefined**.
 4. :star: Напишите функцию _**swissKnife**_ которая принимает число x от 1 до 7 первым аргументом, а вторым аргументом другую функцию из первых трёх задач, вызывает её с парамтером x и возвращает рзультат выполнения этой функции.
 ```javascript
 function swissKnife(x, callback){ // где callback это cube, dayOfWeek или factorial

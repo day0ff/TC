@@ -30,19 +30,19 @@ describe('DayOfWeek function: ', () => {
         expect(dayOfWeek(7)).toBe('Sunday');
     });  
 
-    test('should retrun "No Such Say" (day 8)', () => {
-        expect(dayOfWeek(8)).toBe('No Such Say');
+    test('should retrun undefined (day 8)', () => {
+        expect(dayOfWeek(8)).toBeUndefined();
     });
   
-    test('should retrun "No Such Say" (day 0)', () => {
-        expect(dayOfWeek(0)).toBe('No Such Say');
+    test('should retrun undefined (day 0)', () => {
+        expect(dayOfWeek(0)).toBeUndefined();
     });
   
-    test('should retrun "No Such Say" (day emty string "")', () => {
-        expect(dayOfWeek('')).toBe('No Such Say');
+    test('should retrun undefined (day emty string "")', () => {
+        expect(dayOfWeek('')).toBeUndefined();
     });  
       
-    test('should retrun "No Such Say" (day string "a")', () => {
-        expect(dayOfWeek('a')).toBe('No Such Say');
+    test('should retrun undefined (day string "a")', () => {
+        expect(dayOfWeek('a')).toBeUndefined();
     });
 })

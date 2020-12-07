@@ -22,10 +22,6 @@ describe('Factorial function: ', () => {
         expect(factorial(7)).toBe(5040);
     });
 
-    test('should retrun NaN (factorial string "a"!)', () => {
-        expect(factorial('a')).toBeNaN();
-    });
-
     test('should retrun 1 (factorial string "1"!)', () => {
         expect(factorial('1')).toBe(1);
     });
@@ -34,4 +30,11 @@ describe('Factorial function: ', () => {
         expect(factorial('6')).toBe(720);
     });
 
+    test('should retrun undefined (factorial string "a"!)', () => {
+        expect(factorial('a')).toBeUndefined();
+    });
+
+    test('should retrun undefined (factorial -1!)', () => {
+        expect(factorial(-1)).toBeUndefined();
+    });
 });
