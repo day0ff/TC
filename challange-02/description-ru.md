@@ -41,14 +41,16 @@ function swissKnife(x, callback){ // где callback это cube, dayOfWeek ил
     * x = 5, callback = dayOfWeek; result 'Friday';
     * x = 5, callback = factorial; result 120.
     * x = 5, callback = undefined; result **undefined**.
-5. :star: Напишите функцию которая принимает произвольно количество аргументов x1, x2, x3 ... xn, а возращает среднеарифмитическое этих всех чисел.
+5. :star: Напишите функцию которая принимает произвольно количество аргументов x1, x2, x3 ... xn, а возращает среднеарифмитическое этих всех чисел или **undefined** для всех других вариантов.
 ```javascript
 function arithmeticMean(x1, x2, ... xn){
 	// write code here
 }
 ```
 * Пример: 
-    * x1 =3, x2=3, x3=12, x4=77, x5=1, x6=42, x7=9; result 21.
+    * x1 =3, x2=3, x3=12, x4=77, x5=1, x6=42, x7=9; result 21;
+    * x1 ='a', x2=2.2, x3=3; result **undefined**;
+    * result **undefined**;
 6. :star: :star: Напишите функцию _**sum**_ которая принимает целоче число x, а возвращает сумму всех его чисел [используя рекурсию](https://learn.javascript.ru/recursion).
 ```javascript
 function sum(x){ 
