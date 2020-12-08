@@ -9,7 +9,7 @@ function reverse(arr: number[]): number[] {
     * arr = [1, 2, 3, 4, 5]; result [5, 4, 3, 2, 1]
     * arr = [7, 123, 11, 56]; result [56, 11, 123, 7];
     * arr = []; result [];
-2. Написать функцию _**numberToArray**_ которая принимает число, а возвращает массив из цифр этого числа.
+2. :star: Написать функцию _**numberToArray**_ которая принимает число, а возвращает массив из цифр этого числа.
 ```javascript
 function numberToArray(value: number): number[] {
 	// write code here
@@ -19,6 +19,7 @@ function numberToArray(value: number): number[] {
     * value = 12345; result [1, 2, 3, 4, 5];
     * value = 0; result [0];
     * value = 897; result [8, 9, 7];
+    * value = 123.45; result [1, 2, 3, 4, 5].
 3. Написать функцию _**easyUnpack**__ которая принимает произвольной длины массив чисел, а возвращает **новый** массив длиною три. Где первый элемент нового массива это первый элемент исходного массива, второй элемент это третий, а третий элемент это предпоследний.
 ```javascript
 function easyUnpack(arr: number[]): number[] {
@@ -56,7 +57,7 @@ function zeroesEndCount(arr: number[]): number {
     * arr = [0, 0, 1, 0, 1]; result 0;
     * arr = [0, 0, 0, 0, 0]; result 5;
     * arr = []; result 0.
-6. :star: Написать функцию которая принимает произвольной длины массив произвольных данных, а возвращает **новый** отфильтрованный массив чисел.
+6. Написать функцию которая принимает произвольной длины массив произвольных данных, а возвращает **новый** отфильтрованный массив чисел.
 ```javascript
 function numberFilter(values: arr[]): number[]{
 	// write code here
