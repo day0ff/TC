@@ -9,7 +9,7 @@ function reverse(arr: number[]): number[] {
     * arr = [1, 2, 3, 4, 5]; result [5, 4, 3, 2, 1]
     * arr = [7, 123, 11, 56]; result [56, 11, 123, 7];
     * arr = []; result [];
-2. Написать функцию _**numberToArray**_ которая принимает число, а возвращает массив из чисел этого числа.
+2. Написать функцию _**numberToArray**_ которая принимает число, а возвращает массив из цифр этого числа.
 ```javascript
 function numberToArray(value: number): number[] {
 	// write code here
