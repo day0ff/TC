@@ -1,6 +1,6 @@
 # Challenges (WEB for beginners).
 ## Getting Started
-1. Install [NodeJS](https://nodejs.org) version **14** and [npm manager](https://www.npmjs.com/get-npm) version **6** both globaly;
+1. Install [NodeJS](https://nodejs.org) version **14** and [npm manager](https://www.npmjs.com/get-npm) version **6** - both globaly;
 2. Clone repo to your computer [Challenges (WEB for beginners)](https://github.com/day0ff/TC);
 3. Execute in local repo:
 ```bash
