@@ -1,3 +1,3 @@
-export default function numberFilter(values) {
+export default function numberFilter(arr) {
 	// write code here
 }

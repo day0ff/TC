@@ -58,7 +58,7 @@ function zeroesEndCount(arr: number[]): number {
     * arr = []; result 0.
 6. :star: Написать функцию которая принимает произвольной длины массив произвольных данных, а возвращает **новый** отфильтрованный массив чисел.
 ```javascript
-function numberFilter(values: any[]): number[]{
+function numberFilter(values: arr[]): number[]{
 	// write code here
 }
 ```
